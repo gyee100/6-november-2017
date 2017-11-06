@@ -12,3 +12,16 @@ h1, h2, h3, h4, h5, h6 {
 p, body, html, h1 {
    position: static;
 }
+
+span {
+   position: relative;
+}
+
+span:first-of-type {
+   background-color: red;
+}
+
+span:last-of-type {
+   background-color: yellow;
+   left: -32px;
+}
