@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Rozha+One");
+@import url("https://fonts.googleapis.com/css?family=Monoton");
+
+body {
+   font-family: "Rozha One", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: "Monoton", sans-serif;
+}
+
+p, body, html, h1 {
+   position: static;
+}
