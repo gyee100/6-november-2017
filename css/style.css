@@ -2,40 +2,18 @@
 @import url("https://fonts.googleapis.com/css?family=Monoton");
 
 body {
-   height: 2000px;
+   margin: auto;
+   width: 640px;
    font-family: "Rozha One", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-   font-family: "Monoton", sans-serif;
-}
-
-span {
-   position: relative;
-}
-
-span:first-of-type {
-   background-color: red;
-}
-
-span:last-of-type {
-   background-color: yellow;
-   left: -32px;
-}
-
 h1 {
-   background-color: white;
-   position: fixed;
+    font-family: "Monoton", sans-serif;
 }
 
-h1 {
-   z-index: 1;
-}
-
-span:first-of-type {
-   z-index: 0;
-}
-
-span:last-of-type {
-   z-index: 2;
+p:nth-child(2) {
+   float: left;
+   padding: 16px 16px 16px 0;
+   width: 100px;
+   font-style: italic;
 }
