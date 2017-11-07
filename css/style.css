@@ -18,3 +18,16 @@ p:nth-child(2) {
    width: 100px;
    font-style: italic;
 }
+
+p:nth-child(4) {
+   text-align: right;
+   float: right;
+   margin-right: -32px;
+   padding: 16px 0 16px 16px;
+   width: 100px;
+   font-style: italic;
+}
+
+p:last-of-type {
+   text-align: justify;
+}
