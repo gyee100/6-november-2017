@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Monoton");
 
 body {
+   height: 2000px;
    font-family: "Rozha One", sans-serif;
 }
 
@@ -20,4 +21,9 @@ span:first-of-type {
 span:last-of-type {
    background-color: yellow;
    left: -32px;
+}
+
+h1 {
+   background-color: white;
+   position: fixed;
 }
