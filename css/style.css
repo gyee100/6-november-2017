@@ -13,6 +13,7 @@ h1 {
 
 p:nth-child(2) {
    float: left;
+   margin-left: -32px;
    padding: 16px 16px 16px 0;
    width: 100px;
    font-style: italic;
